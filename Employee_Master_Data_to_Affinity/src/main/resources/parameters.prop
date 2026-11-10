@@ -1,0 +1,29 @@
+#
+#Tue Nov 10 10:57:45 UTC 2026
+SF_API_CREDENTIAL=EPIUSEAUST_BASIC
+SF_API_TIMEOUT=1
+SF_URL=https\://api10.successfactors.com
+TIMER=<row><cell>dateType</cell><cell></cell></row><row><cell>timeType</cell><cell></cell></row><row><cell>dayValue</cell><cell></cell></row><row><cell>monthValue</cell><cell></cell></row><row><cell>yearValue</cell><cell></cell></row><row><cell>onWeekly</cell><cell></cell></row><row><cell>onMonthly</cell><cell></cell></row><row><cell>OnEveryMinute</cell><cell></cell></row><row><cell>fromInterval</cell><cell></cell></row><row><cell>toInterval</cell><cell></cell></row><row><cell>timeZone</cell><cell>( UTC 0\:00 ) Greenwich Mean Time(Etc/GMT)</cell></row><row><cell>secondValue</cell><cell>0</cell></row><row><cell>minutesValue</cell><cell></cell></row><row><cell>hourValue</cell><cell></cell></row><row><cell>triggerType</cell><cell>simple</cell></row><row><cell>noOfSchedules</cell><cell>1</cell></row><row><cell>schedule1</cell><cell>fireNow\=true</cell></row>
+affinity_credentials=Affinity_Payroll
+affinity_url=https\://dataexchange2.affinityfiles.com\:446/v2.1ZZZ
+email_attachments=0
+email_bcc=
+email_cc=
+email_from=prem.mascarenhas@epiuse.com.au
+email_to=prem.mascarenhas@epiuse.com.au
+mail_address=smtp.zespri.com\:25
+mail_attachments=0
+mail_auth=none
+mail_bcc=
+mail_cc=
+mail_location_id=Production
+mail_protection=off
+mail_proxy=sapcc
+mail_subject=CPI Production Error Notification in Employee Master Data to Affinity
+mail_subject2=CPI Production Error Notification in Employee Master Data to Affinity
+mail_subject3=CPI Production Error Notification in Employee Master Data to Affinity
+mail_to=prem.mascarenhas@epiuse.com.au
+successfactors_sftp.address=sftp10.successfactors.comz
+successfactors_sftp.credentialName=SFTP_User
+successfactors_sftp.directory=/outgoing/logs/EMD
+successfactors_sftp.filename=EMD_${date\:now\:yyyy_MM_dd'T'HH_mm}.txt
