@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 SAP-RuntimeProfile: iflmap
 Bundle-SymbolicName: Employee_Master_Data_to_Affinity; singleton:=true
-Bundle-Version: 1.1.8
+Bundle-Version: 1.1.9
 Bundle-Name: Employee Master Data to Affinity
 Bundle-ClassPath: .
 Bundle-ManifestVersion: 2
